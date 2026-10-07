@@ -8,14 +8,13 @@ body {
   margin: 0 auto;
 }
 
-.img-responsive {
-  width: 100%;
-  height: auto;
-}
-
 .grid {
   display: grid;
   grid-row-gap: 64px;
+}
+
+.img-responsive {
+  max-width: 100%;
 }
 
 .grid-2-col { 
